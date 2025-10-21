@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    user-select: none;
+    height: 100%;
+    background-color: rgb(219, 38, 38);
+}
+
+#box {
+        width: 100px;
+        height: 50px;
+        position: absolute; 
+        top: 480px;
+        left: 70px;
+        background: orange;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: grab;
+        user-select: none; 
+        font-size: 20px;
+        color: white;
+    }
+
+body a {
+    position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #03045e;
+  font-size: 20px;
+  background: #caf0f8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
